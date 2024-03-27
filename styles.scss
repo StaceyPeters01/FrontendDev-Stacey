@@ -2,16 +2,31 @@
 $body-color: #FFF7F1;
 $header-color: #92A3CF;
 $nav-color: #D4DBFF;
+// box colors
+$box-color1: #B5E390;
+$box-color2: #F5D070;
+$box-color3: #AB92DF;
+$box-color4: #f5d3d3;
+// border colors
+$border-color1: #527E4E;
+$border-color2: #AE810C;
+$border-color3: #6A5696;
+$border-color4: #de9191;
 
   body {
     background-color: $body-color;
     margin: 0;
     padding: 0;
-
-  }
+    cursor: url('./svg/lemon-regular.svg'), auto; 
+   }
   
   main{
      height: 93vh;
+  }
+
+  a:hover{
+    font-weight: bolder;
+    cursor: url('./svg/lemon-solid.svg'), auto;
   }
 
   header {
@@ -38,10 +53,10 @@ $nav-color: #D4DBFF;
   }
 
   #aboutme-box{
-    background-color: #B5E390;
+    background-color: $box-color1;
     width: 25vw;
     height: 50vh;
-    border: 8px  #527E4E dashed;
+    border: 8px  $border-color1 dashed;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom: none;
@@ -56,7 +71,7 @@ $nav-color: #D4DBFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid #719468;
+    border: 4px solid $border-color1;
     border-radius: 10px;
     font-family: "Tilt Neon", sans-serif;
     font-size: 20px;
@@ -64,10 +79,10 @@ $nav-color: #D4DBFF;
   }
 
   #contact-box{
-    background-color: #F5D070;
+    background-color: $box-color2;
     width: 25vw;
     height: 35vh;
-    border: 8px  #AE810C dashed;
+    border: 8px  $border-color2 dashed;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom: none;
@@ -81,7 +96,7 @@ $nav-color: #D4DBFF;
     height: 5vh;
     width: 8vw;
     background-color: #F5E29C;
-    border: 4px solid #B68F44;
+    border: 4px solid $border-color2;
     border-radius: 10px;
     font-family: "Tilt Neon", sans-serif;
     font-size: 20px;
@@ -93,7 +108,7 @@ $nav-color: #D4DBFF;
   #email-button{
     height: 5vh;
     background-color: #F5E29C;
-    border: 4px solid #B68F44;
+    border: 4px solid $border-color2;
     border-radius: 10px;
     font-family: "Tilt Neon", sans-serif;
     font-size: 20px;
@@ -106,7 +121,7 @@ $nav-color: #D4DBFF;
   #phone-button{
     height: 5vh;
     background-color: #F5E29C;
-    border: 4px solid #B68F44;
+    border: 4px solid $border-color2;
     border-radius: 10px;
     font-family: "Tilt Neon", sans-serif;
     font-size: 20px;
@@ -148,9 +163,7 @@ $nav-color: #D4DBFF;
     color: black;
   }
 
-  a:hover{
-    font-weight: bolder;
-  }
+
 
   #current-page{
     font-weight: bolder;
@@ -177,10 +190,10 @@ $nav-color: #D4DBFF;
 }
 
 #kennis-box{
-  background-color: #AB92DF;
+  background-color: $box-color3;
   width: 25vw;
   height: 65vh;
-  border: 8px  #6A5696 dashed;
+  border: 8px  $border-color3 dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
@@ -192,7 +205,7 @@ $nav-color: #D4DBFF;
   height: 5vh;
   width: 8vw;
   background-color: #D6C2FF;
-  border: 4px solid #7D58AC;
+  border: 4px solid $border-color3;
   border-radius: 10px;
   font-family: "Tilt Neon", sans-serif;
   font-size: 20px;
@@ -203,10 +216,10 @@ $nav-color: #D4DBFF;
 }
 
 #vaardigheden-box{
-  background-color: #B5E390;
+  background-color: $box-color1;
   width: 25vw;
   height: 50vh;
-  border: 8px  #527E4E dashed;
+  border: 8px  $border-color1 dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
@@ -221,7 +234,7 @@ $nav-color: #D4DBFF;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid #719468;
+  border: 4px solid $border-color1;
   border-radius: 10px;
   font-family: "Tilt Neon", sans-serif;
   font-size: 20px;
@@ -247,10 +260,10 @@ $nav-color: #D4DBFF;
 }
 
 #ervaring-box{
-  background-color: #F9C1C1;
+  background-color: $box-color4;
   width: 60vw;
   height: 60vh;
-  border: 8px  #D37676 dashed;
+  border: 8px  $border-color4 dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
@@ -265,7 +278,7 @@ $nav-color: #D4DBFF;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid #de9191;
+  border: 4px solid $border-color4;
   border-radius: 10px;
   font-family: "Tilt Neon", sans-serif;
   font-size: 20px;
@@ -352,10 +365,10 @@ $nav-color: #D4DBFF;
 }
 
 #projecten-box-2{
-  background-color: #B5E390;
+  background-color: $box-color1;
   width: 60vw;
   height: 60vh;
-  border: 8px  #527E4E dashed;
+  border: 8px  $border-color1 dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
@@ -366,8 +379,8 @@ $nav-color: #D4DBFF;
 }
 
 .break{
-  background-color: #F5D070;
-  border: #AE810C solid 5px;
+  background-color: $box-color2;
+  border: $border-color2 solid 5px;
   height: 5vh;
   margin-bottom: 32.5vh;
 }
