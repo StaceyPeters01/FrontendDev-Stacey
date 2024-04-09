@@ -7,6 +7,7 @@ body {
 
 main {
   height: 93vh;
+  font-family: "Tilt Neon", sans-serif;
 }
 
 a:hover {
@@ -321,6 +322,7 @@ footer {
 
 #projecten-main {
   height: 294vh;
+  font-size: 20px;
 }
 
 #projecten-h1 {
@@ -340,24 +342,97 @@ footer {
   border-top-right-radius: 50px;
   border-bottom: none;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-left: 19.5vw;
 }
 
+#ouderavond-img {
+  width: 30vw;
+  border: #527E4E solid 5px;
+}
+
+#ouderavond-text {
+  width: 20vw;
+  height: 16vh;
+  border: #527E4E solid 5px;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 15px;
+}
+
+#ouderavond-div {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 #projecten-box-2 {
-  background-color: #B5E390;
+  background-color: #AB92DF;
   width: 60vw;
   height: 60vh;
-  border: 8px #527E4E dashed;
+  border: 8px #6A5696 dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-left: 19.5vw;
+}
+
+#game-div {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#game-img {
+  width: 30vw;
+  border: #6A5696 solid 5px;
+}
+
+#game-text {
+  width: 20vw;
+  height: 19vh;
+  border: #6A5696 solid 5px;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+
+#projecten-box-3 {
+  background-color: #F9C1C1;
+  width: 60vw;
+  height: 60vh;
+  border: 8px #de9191 dashed;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 19.5vw;
+}
+
+#stage-div {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#stage-img {
+  height: 45vh;
+  border: #de9191 solid 5px;
+}
+
+#stage-text {
+  width: 20vw;
+  height: 40vh;
+  border: #de9191 solid 5px;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
 }
 
 .break {
@@ -365,10 +440,6 @@ footer {
   border: #AE810C solid 5px;
   height: 5vh;
   margin-bottom: 32.5vh;
-}
-
-#ouderavond-img {
-  width: 30vw;
 }
 
 #aboutme-page-boxes {
