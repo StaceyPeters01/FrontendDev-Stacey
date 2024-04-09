@@ -3,15 +3,20 @@ $body-color: #FFF7F1;
 $header-color: #92A3CF;
 $nav-color: #D4DBFF;
 // box colors
-$box-color1: #B5E390;
-$box-color2: #F5D070;
-$box-color3: #AB92DF;
-$box-color4: #F9C1C1;
+$box-color-green: #B5E390;
+$box-color-yellow: #F5D070;
+$box-color-purple: #AB92DF;
+$box-color-pink: #F9C1C1;
 // border colors
-$border-color1: #527E4E;
-$border-color2: #AE810C;
-$border-color3: #6A5696;
-$border-color4: #de9191;
+$border-color-green: #527E4E;
+$border-color-yellow: #AE810C;
+$border-color-purple: #6A5696;
+$border-color-pink: #de9191;
+// light box colors
+$light-box-green: #DCEFCC;
+$light-box-yellow: #F5E29C;
+$light-box-purple: #D6C2FF;
+$light-box-pink: #f5d3d3;
 
   body {
     background-color: $body-color;
@@ -54,10 +59,10 @@ $border-color4: #de9191;
   }
 
   #aboutme-box{
-    background-color: $box-color1;
+    background-color: $box-color-green;
     width: 25vw;
     height: 50vh;
-    border: 8px  $border-color1 dashed;
+    border: 8px  $border-color-green dashed;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom: none;
@@ -70,11 +75,11 @@ $border-color4: #de9191;
   #aboutme-button{
     height: 5vh;
     width: 8vw;
-    background-color: #DCEFCC;
+    background-color: $light-box-green;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid $border-color1;
+    border: 4px solid $border-color-green;
     border-radius: 10px;
     font-family: "Tilt Neon", sans-serif;
     font-size: 20px;
@@ -84,14 +89,14 @@ $border-color4: #de9191;
   #homepage-img{
     height: 35vh;
     width: 12vw;
-    border: $border-color1 5px solid;
+    border: $border-color-green 5px solid;
   }
 
   #contact-box{
-    background-color: $box-color2;
+    background-color: $box-color-yellow;
     width: 25vw;
     height: 35vh;
-    border: 8px  $border-color2 dashed;
+    border: 8px  $border-color-yellow dashed;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom: none;
@@ -104,8 +109,8 @@ $border-color4: #de9191;
   #contact-button{
     height: 5vh;
     width: 8vw;
-    background-color: #F5E29C;
-    border: 4px solid $border-color2;
+    background-color: $light-box-yellow;
+    border: 4px solid $border-color-yellow;
     border-radius: 10px;
     font-family: "Tilt Neon", sans-serif;
     font-size: 20px;
@@ -116,8 +121,8 @@ $border-color4: #de9191;
   }
   #email-button{
     height: 5vh;
-    background-color: #F5E29C;
-    border: 4px solid $border-color2;
+    background-color: $light-box-yellow;
+    border: 4px solid $border-color-yellow;
     border-radius: 10px;
     font-family: "Tilt Neon", sans-serif;
     font-size: 20px;
@@ -129,8 +134,8 @@ $border-color4: #de9191;
   }
   #phone-button{
     height: 5vh;
-    background-color: #F5E29C;
-    border: 4px solid $border-color2;
+    background-color: $light-box-yellow;
+    border: 4px solid $border-color-yellow;
     border-radius: 10px;
     font-family: "Tilt Neon", sans-serif;
     font-size: 20px;
@@ -199,10 +204,10 @@ $border-color4: #de9191;
 }
 
 #kennis-box{
-  background-color: $box-color3;
+  background-color: $box-color-purple;
   width: 25vw;
   height: 65vh;
-  border: 8px  $border-color3 dashed;
+  border: 8px  $border-color-purple dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
@@ -213,8 +218,8 @@ $border-color4: #de9191;
 #kennis-button{
   height: 5vh;
   width: 8vw;
-  background-color: #D6C2FF;
-  border: 4px solid $border-color3;
+  background-color: $light-box-purple;
+  border: 4px solid $border-color-purple;
   border-radius: 10px;
   font-family: "Tilt Neon", sans-serif;
   font-size: 20px;
@@ -225,10 +230,10 @@ $border-color4: #de9191;
 }
 
 #vaardigheden-box{
-  background-color: $box-color1;
+  background-color: $box-color-green;
   width: 25vw;
   height: 50vh;
-  border: 8px  $border-color1 dashed;
+  border: 8px  $border-color-green dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
@@ -239,11 +244,11 @@ $border-color4: #de9191;
 #vaardigheden-button{
   height: 7vh;
   width: 10vw;
-  background-color: #DCEFCC;
+  background-color: $light-box-green;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid $border-color1;
+  border: 4px solid $border-color-green;
   border-radius: 10px;
   font-family: "Tilt Neon", sans-serif;
   font-size: 20px;
@@ -269,10 +274,10 @@ $border-color4: #de9191;
 }
 
 #ervaring-box{
-  background-color: $box-color4;
+  background-color: $box-color-pink;
   width: 60vw;
   height: 60vh;
-  border: 8px  $border-color4 dashed;
+  border: 8px  $border-color-pink dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
@@ -283,11 +288,11 @@ $border-color4: #de9191;
 #ervaring-button{
   height: 7vh;
   width: 10vw;
-  background-color: #f5d3d3;
+  background-color: $light-box-pink;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid $border-color4;
+  border: 4px solid $border-color-pink;
   border-radius: 10px;
   font-family: "Tilt Neon", sans-serif;
   font-size: 20px;
@@ -312,10 +317,10 @@ $border-color4: #de9191;
 }
 
 #educatie-box{
-  background-color: $box-color2;
+  background-color: $box-color-yellow;
   width: 60vw;
   height: 60vh;
-  border: 8px  $border-color2 dashed;
+  border: 8px  $border-color-yellow dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
@@ -326,11 +331,11 @@ $border-color4: #de9191;
 #educatie-button{
   height: 7vh;
   width: 10vw;
-  background-color: #ffe6a5;
+  background-color: $light-box-yellow;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid #cea53e;
+  border: 4px solid $border-color-yellow;
   border-radius: 10px;
   font-family: "Tilt Neon", sans-serif;
   font-size: 20px;
@@ -360,10 +365,10 @@ $border-color4: #de9191;
 }
 
 #projecten-box-1{
-  background-color: $box-color1;
+  background-color: $box-color-green;
   width: 60vw;
   height: 60vh;
-  border: 8px  $border-color1 dashed;
+  border: 8px  $border-color-green dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
@@ -376,13 +381,13 @@ $border-color4: #de9191;
 
 #ouderavond-img{
   width: 30vw;
-  border: $border-color1 solid 5px;
+  border: $border-color-green solid 5px;
 }
 
 #ouderavond-text{
   width: 20vw;
   height: 16vh;
-  border: $border-color1 solid 5px;
+  border: $border-color-green solid 5px;
   border-radius: 20px;
   margin: 20px;
   padding: 15px;
@@ -394,10 +399,10 @@ $border-color4: #de9191;
 }
 
 #projecten-box-2{
-  background-color: $box-color3;
+  background-color: $box-color-purple;
   width: 60vw;
   height: 60vh;
-  border: 8px  $border-color3 dashed;
+  border: 8px  $border-color-purple dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
@@ -415,23 +420,23 @@ $border-color4: #de9191;
 
 #game-img{
   width: 30vw;
-  border: $border-color3 solid 5px;
+  border: $border-color-purple solid 5px;
 }
 
 #game-text{
   width: 20vw;
   height: 19vh;
-  border: $border-color3 solid 5px;
+  border: $border-color-purple solid 5px;
   border-radius: 20px;
   margin: 20px;
   padding: 10px;
 }
 
 #projecten-box-3{
-  background-color: $box-color4;
+  background-color: $box-color-pink;
   width: 60vw;
   height: 60vh;
-  border: 8px  $border-color4 dashed;
+  border: 8px  $border-color-pink dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
@@ -449,13 +454,13 @@ $border-color4: #de9191;
 
 #stage-img{
   height: 45vh;
-  border: $border-color4 solid 5px;
+  border: $border-color-pink solid 5px;
 }
 
 #stage-text{
   width: 20vw;
   height: 40vh;
-  border: $border-color4 solid 5px;
+  border: $border-color-pink solid 5px;
   border-radius: 20px;
   margin: 20px;
   padding: 10px;
@@ -463,8 +468,8 @@ $border-color4: #de9191;
 }
 
 .break{
-  background-color: $box-color2;
-  border: $border-color2 solid 5px;
+  background-color: $box-color-yellow;
+  border: $border-color-yellow solid 5px;
   height: 5vh;
   margin-bottom: 32.5vh;
 }
@@ -482,22 +487,24 @@ $border-color4: #de9191;
 }
 
 #aboutme-box-1{
-  background-color: $box-color4;
+  background-color: $box-color-pink;
   width: 30vw;
-  height: 65vh;
-  border: 8px  $border-color4 dashed;
+  height: 70vh;
+  border: 8px  $border-color-pink dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #aboutme-page-button{
   height: 5vh;
   width: 8vw;
   background-color: #f9dcdc;
-  border: 4px solid $border-color4;
+  border: 4px solid $border-color-pink;
   border-radius: 10px;
   font-family: "Tilt Neon", sans-serif;
   font-size: 20px;
@@ -508,10 +515,10 @@ $border-color4: #de9191;
 }
 
 #aboutme-box-2{
-  background-color: $box-color2;
+  background-color: $box-color-yellow;
   width: 25vw;
   height: 50vh;
-  border: 8px  $border-color2 dashed;
+  border: 8px  $border-color-yellow dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
@@ -522,7 +529,7 @@ $border-color4: #de9191;
 
 #aboutme-img{
   height: 43vh;
-  border: $border-color2 5px solid;
+  border: $border-color-yellow 5px solid;
 }
 
 #aboutme-h1{
@@ -530,4 +537,11 @@ $border-color4: #de9191;
   font-size: 49px;
   text-align: left;
   margin-left: 3vw;
+}
+
+#aboutme-text{
+  border: $border-color-pink 5px solid;
+  border-radius: 20px;
+  width: 25vw;
+  padding: 10px;
 }

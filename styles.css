@@ -302,11 +302,11 @@ footer {
 #educatie-button {
   height: 7vh;
   width: 10vw;
-  background-color: #ffe6a5;
+  background-color: #F5E29C;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid #cea53e;
+  border: 4px solid #AE810C;
   border-radius: 10px;
   font-family: "Tilt Neon", sans-serif;
   font-size: 20px;
@@ -453,13 +453,15 @@ footer {
 #aboutme-box-1 {
   background-color: #F9C1C1;
   width: 30vw;
-  height: 65vh;
+  height: 70vh;
   border: 8px #de9191 dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #aboutme-page-button {
@@ -499,4 +501,11 @@ footer {
   font-size: 49px;
   text-align: left;
   margin-left: 3vw;
+}
+
+#aboutme-text {
+  border: #de9191 5px solid;
+  border-radius: 20px;
+  width: 25vw;
+  padding: 10px;
 }/*# sourceMappingURL=styles.css.map */
