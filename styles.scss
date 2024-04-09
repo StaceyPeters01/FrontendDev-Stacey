@@ -13,7 +13,7 @@ $border-color-yellow: #AE810C;
 $border-color-purple: #6A5696;
 $border-color-pink: #de9191;
 // light box colors
-$light-box-green: #DCEFCC;
+$light-box-green: #c8dfb5;
 $light-box-yellow: #F5E29C;
 $light-box-purple: #D6C2FF;
 $light-box-pink: #f5d3d3;
@@ -276,13 +276,15 @@ $light-box-pink: #f5d3d3;
 #ervaring-box{
   background-color: $box-color-pink;
   width: 60vw;
-  height: 60vh;
+  height: 70vh;
   border: 8px  $border-color-pink dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #ervaring-button{
@@ -306,6 +308,14 @@ $light-box-pink: #f5d3d3;
   margin-left: 3vw;
 }
 
+#ervaring-table {
+  width: 50vw;
+  height: 20vh;
+  border-collapse: collapse;
+  background-color: $light-box-pink;
+  border: $border-color-pink solid 5px;
+}
+
 // Educatie page
 
 #educatie-page-boxes{
@@ -325,7 +335,9 @@ $light-box-pink: #f5d3d3;
   border-top-right-radius: 50px;
   border-bottom: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #educatie-button{
@@ -347,6 +359,22 @@ $light-box-pink: #f5d3d3;
   font-size: 49px;
   text-align: left;
   margin-left: 3vw;
+}
+
+table {
+  width: 40vw;
+  height: 20vh;
+  border-collapse: collapse;
+  background-color: $light-box-yellow;
+  border: $border-color-yellow solid 5px;
+}
+th, td {
+  border: 1px solid $border-color-yellow;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: $light-box-yellow;
 }
 
 // projecten page
@@ -391,6 +419,7 @@ $light-box-pink: #f5d3d3;
   border-radius: 20px;
   margin: 20px;
   padding: 15px;
+  background-color: $light-box-green;
 }
 
 #ouderavond-div{
@@ -430,6 +459,7 @@ $light-box-pink: #f5d3d3;
   border-radius: 20px;
   margin: 20px;
   padding: 10px;
+  background-color: $light-box-purple;
 }
 
 #projecten-box-3{
@@ -464,7 +494,7 @@ $light-box-pink: #f5d3d3;
   border-radius: 20px;
   margin: 20px;
   padding: 10px;
-  
+  background-color: $light-box-pink;
 }
 
 .break{
@@ -544,4 +574,6 @@ $light-box-pink: #f5d3d3;
   border-radius: 20px;
   width: 25vw;
   padding: 10px;
+  background-color: $light-box-pink;
 }
+

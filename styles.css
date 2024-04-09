@@ -55,7 +55,7 @@ nav {
 #aboutme-button {
   height: 5vh;
   width: 8vw;
-  background-color: #DCEFCC;
+  background-color: #c8dfb5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -220,7 +220,7 @@ footer {
 #vaardigheden-button {
   height: 7vh;
   width: 10vw;
-  background-color: #DCEFCC;
+  background-color: #c8dfb5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,13 +249,15 @@ footer {
 #ervaring-box {
   background-color: #F9C1C1;
   width: 60vw;
-  height: 60vh;
+  height: 70vh;
   border: 8px #de9191 dashed;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #ervaring-button {
@@ -279,6 +281,14 @@ footer {
   margin-left: 3vw;
 }
 
+#ervaring-table {
+  width: 50vw;
+  height: 20vh;
+  border-collapse: collapse;
+  background-color: #f5d3d3;
+  border: #de9191 solid 5px;
+}
+
 #educatie-page-boxes {
   display: flex;
   flex-direction: row-reverse;
@@ -296,7 +306,9 @@ footer {
   border-top-right-radius: 50px;
   border-bottom: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #educatie-button {
@@ -318,6 +330,24 @@ footer {
   font-size: 49px;
   text-align: left;
   margin-left: 3vw;
+}
+
+table {
+  width: 40vw;
+  height: 20vh;
+  border-collapse: collapse;
+  background-color: #F5E29C;
+  border: #AE810C solid 5px;
+}
+
+th, td {
+  border: 1px solid #AE810C;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #F5E29C;
 }
 
 #projecten-main {
@@ -360,6 +390,7 @@ footer {
   border-radius: 20px;
   margin: 20px;
   padding: 15px;
+  background-color: #c8dfb5;
 }
 
 #ouderavond-div {
@@ -399,6 +430,7 @@ footer {
   border-radius: 20px;
   margin: 20px;
   padding: 10px;
+  background-color: #D6C2FF;
 }
 
 #projecten-box-3 {
@@ -433,6 +465,7 @@ footer {
   border-radius: 20px;
   margin: 20px;
   padding: 10px;
+  background-color: #f5d3d3;
 }
 
 .break {
@@ -508,4 +541,5 @@ footer {
   border-radius: 20px;
   width: 25vw;
   padding: 10px;
+  background-color: #f5d3d3;
 }/*# sourceMappingURL=styles.css.map */
