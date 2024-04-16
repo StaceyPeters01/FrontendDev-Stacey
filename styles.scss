@@ -58,6 +58,10 @@ $light-box-pink: #f5d3d3;
     text-decoration: none;
   }
 
+  li{
+    padding: 10px;
+  }
+
   #aboutme-box{
     background-color: $box-color-green;
     width: 25vw;
@@ -212,7 +216,9 @@ $light-box-pink: #f5d3d3;
   border-top-right-radius: 50px;
   border-bottom: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #kennis-button{
@@ -229,6 +235,13 @@ $light-box-pink: #f5d3d3;
   padding: 5px;
 }
 
+#kennis-list{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 #vaardigheden-box{
   background-color: $box-color-green;
   width: 25vw;
@@ -238,7 +251,9 @@ $light-box-pink: #f5d3d3;
   border-top-right-radius: 50px;
   border-bottom: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #vaardigheden-button{
@@ -260,6 +275,13 @@ $light-box-pink: #f5d3d3;
   font-size: 49px;
   text-align: left;
   margin-left: 3vw;
+}
+
+#vaardigheden-list{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 

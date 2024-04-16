@@ -38,6 +38,10 @@ nav {
   text-decoration: none;
 }
 
+li {
+  padding: 10px;
+}
+
 #aboutme-box {
   background-color: #B5E390;
   width: 25vw;
@@ -188,7 +192,9 @@ footer {
   border-top-right-radius: 50px;
   border-bottom: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #kennis-button {
@@ -205,6 +211,13 @@ footer {
   padding: 5px;
 }
 
+#kennis-list {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 #vaardigheden-box {
   background-color: #B5E390;
   width: 25vw;
@@ -214,7 +227,9 @@ footer {
   border-top-right-radius: 50px;
   border-bottom: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #vaardigheden-button {
@@ -236,6 +251,13 @@ footer {
   font-size: 49px;
   text-align: left;
   margin-left: 3vw;
+}
+
+#vaardigheden-list {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #ervaring-page-boxes {
