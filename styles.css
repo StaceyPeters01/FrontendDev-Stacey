@@ -38,6 +38,10 @@ nav {
   text-decoration: none;
 }
 
+#tbl-landscape-text {
+  display: none;
+}
+
 li {
   padding: 10px;
 }
@@ -566,9 +570,23 @@ th {
   background-color: #f5d3d3;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1024px) {
   footer {
-    margin-top: 4.5vh;
+    margin-top: 2.5vh;
+  }
+  h2 {
+    margin-bottom: 0;
+    font-size: 20;
+    background-color: green;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    font-size: 40px;
+    background-color: blue;
+    height: 10vh;
   }
   #aboutme-box {
     width: 35vw;
@@ -580,19 +598,22 @@ th {
     width: 30vw;
     height: 25vw;
   }
-}
-@media (max-width: 1500px) {
-  footer {
-    margin-top: 4.5vh;
+  #tbl-landscape-text {
+    display: flex;
+    margin-bottom: 8vh;
+    width: 23vw;
+    font-size: 20px;
+    margin-right: 10vw;
   }
-  #aboutme-box {
-    width: 35vw;
-  }
-  #homepage-img {
-    width: 15vw;
-  }
-  #contact-box {
+  #portfolio-h2 {
     width: 30vw;
-    height: 25vw;
+    height: 10vh;
+  }
+  #top-home-div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: center;
+    margin-right: 33vw;
   }
 }/*# sourceMappingURL=styles.css.map */
