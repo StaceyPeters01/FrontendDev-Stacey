@@ -599,3 +599,43 @@ th {
   background-color: $light-box-pink;
 }
 
+// Tablet Landscape Responsive
+
+// Homepage
+@media (max-width: 1500px) {
+  footer{
+    margin-top: 4.5vh;
+  }
+  #aboutme-box{
+    width: 35vw;
+  }
+  #homepage-img{
+    width: 15vw;
+  }
+  #contact-box{
+    width: 30vw;
+    height: 25vw;
+  }
+}
+
+// Kennis Page
+@media (max-width: 1500px) {
+  footer{
+    margin-top: 4.5vh;
+  }
+  #aboutme-box{
+    width: 35vw;
+  }
+  #homepage-img{
+    width: 15vw;
+  }
+  #contact-box{
+    width: 30vw;
+    height: 25vw;
+  }
+}
+
+
+
+
+

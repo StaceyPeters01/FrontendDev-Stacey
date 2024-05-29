@@ -564,4 +564,35 @@ th {
   width: 25vw;
   padding: 10px;
   background-color: #f5d3d3;
+}
+
+@media (max-width: 1500px) {
+  footer {
+    margin-top: 4.5vh;
+  }
+  #aboutme-box {
+    width: 35vw;
+  }
+  #homepage-img {
+    width: 15vw;
+  }
+  #contact-box {
+    width: 30vw;
+    height: 25vw;
+  }
+}
+@media (max-width: 1500px) {
+  footer {
+    margin-top: 4.5vh;
+  }
+  #aboutme-box {
+    width: 35vw;
+  }
+  #homepage-img {
+    width: 15vw;
+  }
+  #contact-box {
+    width: 30vw;
+    height: 25vw;
+  }
 }/*# sourceMappingURL=styles.css.map */
