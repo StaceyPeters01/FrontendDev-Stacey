@@ -630,7 +630,7 @@ th {
     width: 10vw;
   }
   #contact-box{
-    width: 30vw;
+    width: 35vw;
   }
   
   h2{
@@ -643,13 +643,15 @@ th {
     align-items: center;
     margin-bottom: 5vh;
     font-size: 40px;
-    height: 10vh;
+    height: 11vh;
   }
   #portfolio-h2{
     width: 30vw;
     height: 10vh;
   }
-
+  #email-button{
+    font-size: 14px;
+  }
   #top-home-div{
     display: flex;
     flex-direction: row-reverse;
@@ -669,6 +671,10 @@ th {
   h2{
     margin-bottom: 0;
     font-size: 20;
+  }
+
+  #tbl-portrait-text{
+    display: none;
   }
 
   h1{
