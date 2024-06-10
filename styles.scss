@@ -603,17 +603,72 @@ th {
   background-color: $light-box-pink;
 }
 
+// Tablet Portrait Responsive
+
+// Homepage
+@media (max-width: 700px) {
+  
+  #tbl-landscape-text{
+    display: none;
+  }
+  #tbl-portrait-text{
+    display: flex;
+    width: 23vw;
+    font-size: 20px;
+    margin-right: 10vw;
+  }
+  #aboutme-box{
+    width: 40vw;
+  }
+  #homepage-img{
+    width: 25vw;
+  }
+  #aboutme-button{
+    width: 13vw;
+  }
+  #contact-button{
+    width: 10vw;
+  }
+  #contact-box{
+    width: 30vw;
+  }
+  
+  h2{
+    margin-bottom: 0;
+    font-size: 20;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    font-size: 40px;
+    height: 10vh;
+  }
+  #portfolio-h2{
+    width: 30vw;
+    height: 10vh;
+  }
+
+  #top-home-div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: center;
+    margin-right: 33vw;
+  }
+}
+
 // Tablet Landscape Responsive
 
 // Homepage
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   footer{
-    margin-top: 2.vh;
+    margin-top: 1.5vh;
   }
   h2{
     margin-bottom: 0;
     font-size: 20;
-    background-color: green;
   }
 
   h1{
@@ -622,10 +677,8 @@ th {
     align-items: center;
     margin-bottom: 5vh;
     font-size: 40px;
-    background-color: rgb(0, 0, 255);
     height: 10vh;
   }
-  
   #aboutme-box{
     width: 35vw;
   }
